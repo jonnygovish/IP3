@@ -9,7 +9,7 @@
 
 /**********GENERAL **********/
 /*************************************/
-.container{
+.container-fluid{
   font-family: 'Roboto', sans-serif;
   color: white;
 }
@@ -19,72 +19,29 @@
 background-image: url("../assets/backgrounds/h_img.jpg");
 background-size: cover;
 text-align: center;
-}
-.fs12 {
-    font-size: 12px;
-}
-
-.fs13 {
-    font-size: 13px;
-}
-
-.fs14 {
-    font-size: 14px;
-}
-
-.fs15 {
-    font-size: 15px;
-}
-
-.fs16 {
-    font-size: 16px;
-}
-
-.fs30 {
-    font-size: 30px;
-}
-
-.large-red-button {
-    width: 100%;
-padding: 30px;
-border-color: blue;
-}
-
-.nomargin {
-    margin: 0 !important;
-}
-
-
-/********** INDEX PAGE **********/
-/*************************************/
-button.submit-button:hover{
-  background-color: blue;
-  text-transform: uppercase;
-  text-decoration: underline;
-  border-color: black;
 
 }
-.mt0{
-  margin-top: 0px;
-}
-.mt10{
-  margin-top: 10px;
-}
-.mt20{
+.header1{
   margin-top: 20px;
+  margin-left:45%;
+  margin-bottom: 35px;
 }
-.mt30{
-  margin-top: 30px;
+.header2{
+  margin-left: 40%;
+  margin-bottom: 35px;
 }
-.mt40{
-  margin-top: 40px;
+.header3{
+  margin-left: 34%;
+  margin-bottom: 35px;
 }
-.mt50{
-  margin-top: 50px;
+.header4{
+  margin-left: 25%;
+  margin-bottom: 30px;
 }
-.imput-large{
-  padding: 35px 35px;
-
+.header5{
+  margin-left: 47%;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 
