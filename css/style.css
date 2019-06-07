@@ -11,14 +11,20 @@
 /*************************************/
 .container-fluid{
   font-family: 'Roboto', sans-serif;
-  color: white;
+
 }
 /*************ROW 1**********/
 /***************************/
 .bg-steps{
 background-image: url("../assets/backgrounds/h_img.jpg");
-background-size: cover;
+background-size: 100%;
+background-repeat: no-repeat;
+background-position:relative;
+height:auto;
+
+
 text-align: center;
+color: white;
 
 }
 .header1{
@@ -43,12 +49,26 @@ text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
 }
+.about{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.services{
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  background-position: center;
+  background-size: 100%;
+  height:auto;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 
 
 
-
-/********** PORTFOLIO PAGE **********/
+/**********ROW 2**********/
 /*************************************/
 
 
