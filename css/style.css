@@ -1,81 +1,60 @@
-/********** FILE IMPORTS **********/
-/*************************************/
-
 @import url('bootstrap.css');
 @import url('fonts.css');
 
-
-
-
-/**********GENERAL **********/
-/*************************************/
-.container-fluid{
-  font-family: 'Roboto', sans-serif;
-
-}
-/*************ROW 1**********/
-/***************************/
-.bg-steps{
-background-image: url("../assets/backgrounds/h_img.jpg");
-background-size: 100%;
-background-repeat: no-repeat;
-background-position:relative;
-height:auto;
-
-
-text-align: center;
-color: white;
-
-}
-.header1{
-  margin-top: 20px;
-  margin-left:45%;
-  margin-bottom: 35px;
-}
-.header2{
-  margin-left: 40%;
-  margin-bottom: 35px;
-}
-.header3{
-  margin-left: 34%;
-  margin-bottom: 35px;
-}
-.header4{
-  margin-left: 25%;
-  margin-bottom: 30px;
-}
-.header5{
-  margin-left: 47%;
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-.about{
+header{
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  background-image: url("../assets/backgrounds/h_img.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+
 }
+.firstlines{
+  margin-top: 80px;
+}
+#l0{
+  margin-top: 70px;
+
+}
+#l1{
+  font-size: 30px;
+  margin-top: 15px;
+}
+#l2{
+  font-size: 30px;
+  margin-top: 15px;
+}
+#l3{
+  font-size: 15px;
+}
+#l4{
+  margin-top: 85px;
+  margin-bottom: 15px;
+}
+/********THE ABOUT US SECTION********/
+ABOUT{
+  text-align: center;
+  font-size: 14px;
+  margin: 60px;
+}
+/******SERVICES SECTION**************/
 .services{
   background-image: url("../assets/backgrounds/s_image.jpg");
-  background-position: center;
+  background-repeat: no-repeat;
   background-size: 100%;
-  height:auto;
-  text-align: center;
   color: white;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  text-align: center;
+
 }
-
-
-
-
-/**********ROW 2**********/
-/*************************************/
-
-
-
-
-
-
-
-/********** ABOUT PAGE **********/
-/*************************************/
+services{
+  margin: 100px;
+  font-size: 14px;
+}
+/*****************WHAT WE DO*************/
+h4{
+  text-align: center;
+  margin: 20px;
+}
+.col{
+  text-align: center;
+}
