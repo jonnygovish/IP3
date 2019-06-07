@@ -11,8 +11,15 @@
 /*************************************/
 .container{
   font-family: 'Roboto', sans-serif;
+  color: white;
 }
-
+/*************ROW 1**********/
+/***************************/
+.bg-steps{
+background-image: url("../assets/backgrounds/h_img.jpg");
+background-size: cover;
+text-align: center;
+}
 .fs12 {
     font-size: 12px;
 }
