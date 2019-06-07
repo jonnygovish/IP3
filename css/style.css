@@ -58,3 +58,7 @@ h4{
 .col{
   text-align: center;
 }
+/***************PORTFOLIO******************/
+img.portfolio{
+  margin: 20px;
+}
