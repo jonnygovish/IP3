@@ -1,0 +1,97 @@
+/********** FILE IMPORTS **********/
+/*************************************/
+
+@import url('bootstrap.css');
+@import url('fonts.css');
+
+
+
+
+/**********GENERAL **********/
+/*************************************/
+.container{
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fs13 {
+    font-size: 13px;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.fs15 {
+    font-size: 15px;
+}
+
+.fs16 {
+    font-size: 16px;
+}
+
+.fs30 {
+    font-size: 30px;
+}
+
+.large-red-button {
+    width: 100%;
+padding: 30px;
+border-color: blue;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+
+
+/********** INDEX PAGE **********/
+/*************************************/
+button.submit-button:hover{
+  background-color: blue;
+  text-transform: uppercase;
+  text-decoration: underline;
+  border-color: black;
+
+}
+.mt0{
+  margin-top: 0px;
+}
+.mt10{
+  margin-top: 10px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.mt30{
+  margin-top: 30px;
+}
+.mt40{
+  margin-top: 40px;
+}
+.mt50{
+  margin-top: 50px;
+}
+.imput-large{
+  padding: 35px 35px;
+
+}
+
+
+
+
+
+/********** PORTFOLIO PAGE **********/
+/*************************************/
+
+
+
+
+
+
+
+/********** ABOUT PAGE **********/
+/*************************************/
