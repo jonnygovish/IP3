@@ -63,5 +63,9 @@ img.portfolio{
   margin: 10px;
 }
 portfolio{
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
   text-align: center;
 }
