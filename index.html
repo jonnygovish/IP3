@@ -64,30 +64,31 @@
         <h4>PORTFOLIO</h4>
         <div class="row port justify-content-center align-items-center">
           <div class="col-2 ">
-            <img src="assets/portfolio/work4.jpg" alt="portfolio icon" class="portfolio img-fluid">
+            <img src="assets/portfolio/work4.jpg" alt="portfolio icon" class="portfolio img-fluid project1">
+            <span class="p1">GREY</span>
           </div>
           <div class="col-2  ">
-            <img src="assets/portfolio/work3.jpg" alt="portfolio icon" class="portfolio img-fluid">
+            <img src="assets/portfolio/work3.jpg" alt="portfolio icon" class="portfolio img-fluid p2">
           </div>
           <div class="col-2  ">
-            <img src="assets/portfolio/work2.jpg" alt="portfolio icon" class="portfolio img-fluid">
+            <img src="assets/portfolio/work2.jpg" alt="portfolio icon" class="portfolio img-fluid p3">
           </div>
           <div class="col-2  ">
-            <img src="assets/portfolio/work1.jpg" alt="portfolio icon" class="portfolio img-fluid">
+            <img src="assets/portfolio/work1.jpg" alt="portfolio icon" class="portfolio img-fluid p4">
           </div>
         </div>
         <div class="row port justify-content-center align-items-center">
           <div class="col-2">
-            <img src="assets/portfolio/work5.jpg" alt="portfolio icon" class="portfolio img-fluid">
+            <img src="assets/portfolio/work5.jpg" alt="portfolio icon" class="portfolio img-fluid p5">
           </div>
           <div class="col-2">
-            <img src="assets/portfolio/work6.jpg" alt="portfolio icon" class="portfolio img-fluid">
+            <img src="assets/portfolio/work6.jpg" alt="portfolio icon" class="portfolio img-fluid p6">
           </div>
           <div class="col-2">
-            <img src="assets/portfolio/work7.jpg" alt="portfolio icon" class="portfolio img-fluid">
+            <img src="assets/portfolio/work7.jpg" alt="portfolio icon" class="portfolio img-fluid p7">
           </div>
           <div class="col-2">
-            <img src="assets/portfolio/work8.jpg" alt="portfolio icon" class="portfolio img-fluid">
+            <img src="assets/portfolio/work8.jpg" alt="portfolio icon" class="portfolio img-fluid p8">
           </div>
       </div>
 
@@ -97,13 +98,13 @@
           <div class="cont-head">
             <h4>CONTACT US</h4>
           </div>
-          <form>
+          <form id="contactform">
             <div class="row form-group justify-content-center align-items-center">
               <div class="col-4">
-                <input type="text" placeholder="Name..." class="form-control">
+                <input type="text" id="name" placeholder="Name..." class="form-control">
               </div>
               <div class="col-4">
-                <input type="text" placeholder="Email..." class="form-control">
+                <input type="text" id="email" placeholder="Email..." class="form-control">
               </div>
             </div>
             <div class="row form-group justify-content-center align-items-center">
@@ -111,8 +112,14 @@
                 <input type="text" placeholder="Your message here..." class="form-control message">
               </div>
             </div>
+            <div class="row form-group justify-content-center align-items-center">
+              <div class="row2">
+                <input type="submit" value="Submit" class="submit">
+              </div>
+            </div>
           </form>
         </div>
+
       </contact>
       <div class="row justify-content-center align-items-center social-media">
         <social-media>
@@ -137,14 +144,15 @@
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script>
-    var design = "Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.\n" +
-                 "Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.\n"
-    var development = "All engineers are fluent in the latest enterprise, mobile and web development technologies." +
-                       "They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.\n"
-    var product = "Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. "+
-                  "This iterative process allows for changes as business requirements evolve."
 
     $(document).ready(function(){
+      $("#contactform").submit(function(event){
+        var nameInput = $("input#name").val()
+        var emailInput = $("input#email").val()
+        var messageInput = $("input#message").val()
+        var returnMessage = (nameInput + " we have received your message. Thanks for contacting us.")
+        returnMessage.show();
+      });
       $(".designdef").hide();
       $(".developmentdef").hide();
       $(".productdef").hide();
@@ -152,17 +160,14 @@
       $("#design").click(function(){
         $(".designdef").show();
         $("#design").hide();
-
       });
       $("#development").click(function(){
         $(".developmentdef").show();
         $("#development").hide();
-
       });
       $("#product").click(function(){
         $(".productdef").show();
         $("#product").hide();
-
       });
       $(".productdef").click(function(){
         $(".productdef").hide();
@@ -175,6 +180,9 @@
       $(".designdef").click(function(){
         $(".designdef").hide();
         $("#design").show();
+      });
+      $(".submit").hover(function(){
+        $(this).css("background-color","darkblue")
       });
 
     });
