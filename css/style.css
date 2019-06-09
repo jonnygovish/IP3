@@ -60,8 +60,8 @@ h4{
 }
 /***************PORTFOLIO******************/
 img.portfolio{
-  margin: 20px;
+  margin: 10px;
 }
-.port{
-  margin-right:30px;
+portfolio{
+  text-align: center;
 }
