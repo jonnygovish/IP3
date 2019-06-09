@@ -39,17 +39,25 @@
         <h4>WHAT WE DO</h4>
       </div>
       <div class="row">
-        <div class="col  ">
-          <img src="assets/services_icons/design_icon.png" alt="design icon">
-          <p>DESIGN</p>
+        <div class="col">
+          <img src="assets/services_icons/design_icon.png" alt="design icon" id="design">
+          <p><span class="design"><strong>DESIGN</strong></span></p>
+          <p><span class="designdef">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</span></p>
+          <p><span class="designdef">Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</span>
+</p>
         </div>
-        <div class="col  ">
-          <img src="assets/services_icons/dev_icon.png" alt="design icon">
-          <p>DEVELOPMENT</p>
+        <div class="col">
+          <img src="assets/services_icons/dev_icon.png" alt="development icon" id="development">
+          <p><span class="development"><strong>DEVELOPMENT</strong></span></p>
+          <p><span class="developmentdef">All engineers are fluent in the latest enterprise, mobile and web development technologies.</span></p>
+          <p><span class="developmentdef">They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
+</span></p>
         </div>
-        <div class="col  ">
-          <img src="assets/services_icons/product_icon.png" alt="design icon">
-        <p>PRODUCT MANAGEMENT</p>
+        <div class="col">
+          <img src="assets/services_icons/product_icon.png" alt="product management icon" id="product">
+        <p><span class="product"><strong>PRODUCT MANAGEMENT</strong></span></p>
+        <p><span class="productdef">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. </span></p>
+        <p><span class="productdef">This iterative process allows for changes as business requirements evolve.</span></p>
         </div>
       </div>
       <portfolio>
@@ -124,16 +132,51 @@
         <p>DELANI STUDIO</p>
         <p>2019</p>
       </div>
-
-
-
-
     </div>
   </body>
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script>
+    var design = "Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.\n" +
+                 "Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.\n"
+    var development = "All engineers are fluent in the latest enterprise, mobile and web development technologies." +
+                       "They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.\n"
+    var product = "Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. "+
+                  "This iterative process allows for changes as business requirements evolve."
+
     $(document).ready(function(){
-    })
+      $(".designdef").hide();
+      $(".developmentdef").hide();
+      $(".productdef").hide();
+
+      $("#design").click(function(){
+        $(".designdef").show();
+        $("#design").hide();
+
+      });
+      $("#development").click(function(){
+        $(".developmentdef").show();
+        $("#development").hide();
+
+      });
+      $("#product").click(function(){
+        $(".productdef").show();
+        $("#product").hide();
+
+      });
+      $(".productdef").click(function(){
+        $(".productdef").hide();
+        $("#product").show();
+      });
+      $(".developmentdef").click(function(){
+        $(".developmentdef").hide();
+        $("#development").show();
+      });
+      $(".designdef").click(function(){
+        $(".designdef").hide();
+        $("#design").show();
+      });
+
+    });
   </script>
 </html>
