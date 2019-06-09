@@ -62,10 +62,39 @@ h4{
 img.portfolio{
   margin: 10px;
 }
-portfolio{
+.contact{
   background-image: url("../assets/backgrounds/c_image.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   color: white;
   text-align: center;
+}
+.cont-head{
+  margin-top: 20px;
+  padding: 10px;
+}
+input[type=text] {
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: inherit;
+}
+::placeholder {
+  color: white;
+}
+.message{
+  height: 150px;
+}
+.social-media{
+  padding: 20px;
+  width: 75%;
+  margin: auto;
+}
+social-media img{
+  padding: 10px;
+}
+.bottom{
+  text-align: center;
+  font-size: 12px;
 }
