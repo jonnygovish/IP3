@@ -6,6 +6,7 @@ Delani Studio is an interactive website that I replicated using HTML, CSS, JavaS
 
 #### **{List of contributors}**
 This website was created by Tabitha Oanda.
+The original pictures and design were sourced from Jonny Govish's repository.
 
 ## Description
 This website utilizes Javascript to analyze user input(email, mouse hovering). The user lands on the main page designed using HTML, CSS, and Bootstrap.The icons that describe what we do can be toggled by the click of a mouse to display either the icon or the description. The user can then scroll down the website and hover over the portfolio images to get the names of the project.
