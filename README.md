@@ -18,13 +18,13 @@ Here are some images of my UI:
 
 ![delanisc3](https://user-images.githubusercontent.com/50864401/59182242-e28d7f00-8b71-11e9-81d5-2812a9a78e9a.png)
 
- 
+
 ###BDD
 | Behavior our program handles    | Input Example    | Output Example   |
 | ----------------------------- | ------------- | -------------  |
-| Hover Effects                       | The user hovers over the portfolio images | The opacity of the image decreases and the text containing the image name pops over it|
-| Toggle Effect                  |The user clicks on any of the "WHAT WE DO" icons        | The icon disappears and the description shows up  |
-|Toggle Effect  |The user clicks on any of the "WHAT WE DO" descriptions           | The description disappears and the icon reappears   |
+| Hover Effects | The user hovers over the portfolio images | The opacity of the image decreases and the text containing the image name pops over it|
+| Toggle Effec |The user clicks on any of the "WHAT WE DO" icons| The icon disappears and the description shows up  |
+|Toggle Effect  |The user clicks on any of the "WHAT WE DO" descriptions | The description disappears and the icon reappears   |
 | The website responds to user input | The user sends us a message through the form       |  A response pops up with the user's name acknowledging the receipt of the message  |
 
 ## Setup/Installation Requirements
