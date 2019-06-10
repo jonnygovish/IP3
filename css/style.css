@@ -128,3 +128,10 @@ social-media img{
   text-align: center;
   font-size: 12px;
 }
+
+
+.text{
+  text-align: center;
+  border: solid;
+  border-color: black;
+}
