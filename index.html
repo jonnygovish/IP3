@@ -64,31 +64,34 @@
         <h4>PORTFOLIO</h4>
         <div class="row port justify-content-center align-items-center">
           <div class="col-2 ">
-            <img src="assets/portfolio/work4.jpg" alt="portfolio icon" class="portfolio img-fluid project1">
-            <span class="p1">GREY</span>
+            <img src="assets/portfolio/work4.jpg" alt="portfolio icon" class="portfolio img-fluid" id="image">
+              <div id="text">Project</div>
           </div>
           <div class="col-2  ">
-            <img src="assets/portfolio/work3.jpg" alt="portfolio icon" class="portfolio img-fluid p2">
+            <img src="assets/portfolio/work3.jpg" alt="portfolio icon" class="portfolio img-fluid" id="image">
+            <div id="text">Project</div>
           </div>
           <div class="col-2  ">
-            <img src="assets/portfolio/work2.jpg" alt="portfolio icon" class="portfolio img-fluid p3">
+            <img src="assets/portfolio/work2.jpg" alt="portfolio icon" class="portfolio img-fluid" id="image">
+            <div id="text">Project</div>
           </div>
           <div class="col-2  ">
-            <img src="assets/portfolio/work1.jpg" alt="portfolio icon" class="portfolio img-fluid p4">
+            <img src="assets/portfolio/work1.jpg" alt="portfolio icon" class="portfolio img-fluid " id="image">
+            <div id="text">Project</div>
           </div>
         </div>
         <div class="row port justify-content-center align-items-center">
           <div class="col-2">
-            <img src="assets/portfolio/work5.jpg" alt="portfolio icon" class="portfolio img-fluid p5">
+            <img src="assets/portfolio/work5.jpg" alt="portfolio icon" class="portfolio img-fluid image">
           </div>
           <div class="col-2">
-            <img src="assets/portfolio/work6.jpg" alt="portfolio icon" class="portfolio img-fluid p6">
+            <img src="assets/portfolio/work6.jpg" alt="portfolio icon" class="portfolio img-fluid image">
           </div>
           <div class="col-2">
-            <img src="assets/portfolio/work7.jpg" alt="portfolio icon" class="portfolio img-fluid p7">
+            <img src="assets/portfolio/work7.jpg" alt="portfolio icon" class="portfolio img-fluid image">
           </div>
           <div class="col-2">
-            <img src="assets/portfolio/work8.jpg" alt="portfolio icon" class="portfolio img-fluid p8">
+            <img src="assets/portfolio/work8.jpg" alt="portfolio icon" class="portfolio img-fluid image">
           </div>
       </div>
 
@@ -98,28 +101,29 @@
           <div class="cont-head">
             <h4>CONTACT US</h4>
           </div>
-          <form id="contactform">
-            <div class="row form-group justify-content-center align-items-center">
-              <div class="col-4">
-                <input type="text" id="name" placeholder="Name..." class="form-control">
+          <form id="form1">
+            <div id="form">
+              <div class="row form-group justify-content-center align-items-center">
+                <div class="col-4">
+                  <input type="text" value="name" placeholder="Name..." class="form-control" required="" id="name">
+                </div>
+                <div class="col-4">
+                  <input type="email" placeholder="Email..." class="form-control" id="email">
+                </div>
               </div>
-              <div class="col-4">
-                <input type="text" id="email" placeholder="Email..." class="form-control">
+              <div class="row form-group justify-content-center align-items-center">
+                <div class="col-8" id="message">
+                  <input type="text" placeholder="Your message here..." required= "" class="form-control message" id="message">
+                </div>
               </div>
-            </div>
-            <div class="row form-group justify-content-center align-items-center">
-              <div class="col-8" id="message">
-                <input type="text" placeholder="Your message here..." class="form-control message">
-              </div>
-            </div>
-            <div class="row form-group justify-content-center align-items-center">
-              <div class="row2">
-                <input type="submit" value="Submit" class="submit">
+              <div class="row form-group justify-content-center align-items-center">
+                <div class="col-4">
+                  <input type="submit" placeholder="Submit" value="Submit" class="btn btn-primary submit">
+                </div>
               </div>
             </div>
           </form>
         </div>
-
       </contact>
       <div class="row justify-content-center align-items-center social-media">
         <social-media>
@@ -146,16 +150,10 @@
   <script>
 
     $(document).ready(function(){
-      $("#contactform").submit(function(event){
-        var nameInput = $("input#name").val()
-        var emailInput = $("input#email").val()
-        var messageInput = $("input#message").val()
-        var returnMessage = (nameInput + " we have received your message. Thanks for contacting us.")
-        returnMessage.show();
-      });
       $(".designdef").hide();
       $(".developmentdef").hide();
       $(".productdef").hide();
+
 
       $("#design").click(function(){
         $(".designdef").show();
@@ -181,10 +179,19 @@
         $(".designdef").hide();
         $("#design").show();
       });
-      $(".submit").hover(function(){
-        $(this).css("background-color","darkblue")
-      });
 
+      $("#form1").submit(function(e){
+
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("name").value;
+        if (name == " " || email == " "){
+          alert("Please enter a name and your email address to continue.");
+          return false;
+        }else{
+          alert("Hello " + name + " \n we have received your message. Thank you for reaching out")
+
+        }
+      });
     });
   </script>
 </html>
