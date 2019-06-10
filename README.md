@@ -18,7 +18,7 @@ Here are some images of my UI:
 
 ![delanisc3](https://user-images.githubusercontent.com/50864401/59182242-e28d7f00-8b71-11e9-81d5-2812a9a78e9a.png)
 
-
+ 
 ###BDD
 | Behavior our program handles    | Input Example    | Output Example   |
 | ----------------------------- | ------------- | -------------  |
