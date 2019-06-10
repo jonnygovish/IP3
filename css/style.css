@@ -1,6 +1,8 @@
 @import url('bootstrap.css');
 @import url('fonts.css');
-
+.container{
+  position: relative;
+}
 header{
   text-align: center;
   background-image: url("../assets/backgrounds/h_img.jpg");
@@ -133,5 +135,19 @@ social-media img{
 .text{
   text-align: center;
   border: solid;
-  border-color: black;
+  border-color: white;
+  color: white;
+  padding: 15px;
+}
+
+
+.text{
+   position: absolute;
+   margin: -150px 0px 0px 90px;
+   width:90px;
+   z-index:1;
+   text-align: center;
+}
+.port1:hover .text{
+  display: block;
 }
