@@ -20,12 +20,12 @@ Here are some images of my UI:
 
 
 ##BDD
-| Behavior our program handles  | Input Example | Output Example   |
-| ----------------------------- | ------------- | -------------  |
-| Hover Effects | The user hovers over the portfolio images | The opacity of the image decreases and the text containing the image name pops over it|
-| Toggle Effects |The user clicks on any of the "WHAT WE DO" icons| The icon disappears and the description shows up  |
-|Toggle Effect  |The user clicks on any of the "WHAT WE DO" descriptions | The description disappears and the icon reappears   |
-| The website responds to user input | The user sends us a message through the form       |  A response pops up with the user's name acknowledging the receipt of the message  |
+ | Behavior our program handles  | Input Example | Output Example |
+ | ----------------------------- | ------------- | -------------  |
+ | Hover Effects | The user hovers over the portfolio images | The opacity of the image decreases and the text containing the image name pops over it|
+ | Toggle Effects |The user clicks on any of the "WHAT WE DO" icons| The icon disappears and the description shows up  |
+ |Toggle Effect  |The user clicks on any of the "WHAT WE DO" descriptions | The description disappears and the icon reappears   |
+ | The website responds to user input | The user sends us a message through the form       |  A response pops up with the user's name acknowledging the receipt of the message  |
 
 ## Setup/Installation Requirements
 The following steps will help to set up the program:
