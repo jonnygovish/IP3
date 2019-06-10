@@ -64,34 +64,38 @@
         <h4>PORTFOLIO</h4>
         <div class="row port justify-content-center align-items-center">
           <div class="col-2 ">
-            <img src="assets/portfolio/work4.jpg" alt="portfolio icon" class="portfolio img-fluid" id="image">
-              <div id="text">Project</div>
+            <img src="assets/portfolio/work4.jpg" alt="portfolio icon" class="portfolio img-fluid image1">
+              <div class="text1">Project1</div>
+          </div>
+          <div class="col-2 ">
+            <img src="assets/portfolio/work3.jpg" alt="portfolio icon" class="portfolio img-fluid image2" >
+            <div class="text2">Project2</div>
           </div>
           <div class="col-2  ">
-            <img src="assets/portfolio/work3.jpg" alt="portfolio icon" class="portfolio img-fluid" id="image">
-            <div id="text">Project</div>
+            <img src="assets/portfolio/work2.jpg" alt="portfolio icon" class="portfolio img-fluid image3">
+            <div class="text3">Project3</div>
           </div>
           <div class="col-2  ">
-            <img src="assets/portfolio/work2.jpg" alt="portfolio icon" class="portfolio img-fluid" id="image">
-            <div id="text">Project</div>
-          </div>
-          <div class="col-2  ">
-            <img src="assets/portfolio/work1.jpg" alt="portfolio icon" class="portfolio img-fluid " id="image">
-            <div id="text">Project</div>
+            <img src="assets/portfolio/work1.jpg" alt="portfolio icon" class="portfolio img-fluid image4">
+            <div class="text4">Project4</div>
           </div>
         </div>
         <div class="row port justify-content-center align-items-center">
           <div class="col-2">
-            <img src="assets/portfolio/work5.jpg" alt="portfolio icon" class="portfolio img-fluid image">
+            <img src="assets/portfolio/work5.jpg" alt="portfolio icon" class="portfolio img-fluid image5">
+            <div class="text5">Project5</div>
           </div>
           <div class="col-2">
-            <img src="assets/portfolio/work6.jpg" alt="portfolio icon" class="portfolio img-fluid image">
+            <img src="assets/portfolio/work6.jpg" alt="portfolio icon" class="portfolio img-fluid image6">
+            <div class="text6">Project6</div>
           </div>
           <div class="col-2">
-            <img src="assets/portfolio/work7.jpg" alt="portfolio icon" class="portfolio img-fluid image">
+            <img src="assets/portfolio/work7.jpg" alt="portfolio icon" class="portfolio img-fluid image7">
+            <div class="text7">Project7</div>
           </div>
           <div class="col-2">
-            <img src="assets/portfolio/work8.jpg" alt="portfolio icon" class="portfolio img-fluid image">
+            <img src="assets/portfolio/work8.jpg" alt="portfolio icon" class="portfolio img-fluid image8">
+            <div class="text8">Project8</div>
           </div>
       </div>
 
@@ -105,15 +109,15 @@
             <div id="form">
               <div class="row form-group justify-content-center align-items-center">
                 <div class="col-4">
-                  <input type="text" value="name" placeholder="Name..." class="form-control" required="" id="name">
+                  <input type="text" value="name..." placeholder="Name..." class="form-control" required="" id="name">
                 </div>
                 <div class="col-4">
-                  <input type="email" placeholder="Email..." class="form-control" id="email">
+                  <input type="email" placeholder="Email..." value="email..." class="form-control" id="email">
                 </div>
               </div>
               <div class="row form-group justify-content-center align-items-center">
                 <div class="col-8" id="message">
-                  <input type="text" placeholder="Your message here..." required= "" class="form-control message" id="message">
+                  <input type="text" value="Your message here..." placeholder="Your message here..." required= "" class="form-control message" id="message">
                 </div>
               </div>
               <div class="row form-group justify-content-center align-items-center">
@@ -154,6 +158,113 @@
       $(".developmentdef").hide();
       $(".productdef").hide();
 
+      $(".text1").hide();
+      $(".image1").animate({
+        opacity: 1
+      });
+      $(".image1").hover(function(){
+        $(this).stop().animate({opacity:.4},200);
+        $('.text1').fadeIn();
+
+    }, function() {
+        $(this).stop().animate({opacity:1},500)
+        $('.text1').fadeOut();
+    });
+    //The second image
+      $(".text2").hide();
+      $(".image2").animate({
+        opacity: 1
+      });
+      $(".image2").hover(function(){
+        $(this).stop().animate({opacity:.4},200);
+        $('.text2').fadeIn();
+
+    }, function() {
+        $(this).stop().animate({opacity:1},500)
+        $('.text2').fadeOut();
+    });
+    //the third image
+      $(".text3").hide();
+      $(".image3").animate({
+        opacity: 1
+      });
+      $(".image3").hover(function(){
+        $(this).stop().animate({opacity:.4},200);
+        $('.text3').fadeIn();
+
+    }, function() {
+        $(this).stop().animate({opacity:1},500)
+        $('.text3').fadeOut();
+    });
+    //the fourth
+      $(".text4").hide();
+      $(".image4").animate({
+        opacity: 1
+      });
+      $(".image4").hover(function(){
+        $(this).stop().animate({opacity:.4},200);
+        $('.text4').fadeIn();
+
+    }, function() {
+        $(this).stop().animate({opacity:1},500)
+        $('.text4').fadeOut();
+    });
+    //the fifth
+      $(".text5").hide();
+      $(".image5").animate({
+        opacity: 1
+      });
+      $(".image5").hover(function(){
+        $(this).stop().animate({opacity:.4},200);
+        $('.text5').fadeIn();
+
+    }, function() {
+        $(this).stop().animate({opacity:1},500)
+        $('.text5').fadeOut();
+    });
+    //the sixth
+      $(".text6").hide();
+      $(".image6").animate({
+        opacity: 1
+      });
+      $(".image6").hover(function(){
+        $(this).stop().animate({opacity:.4},200);
+        $('.text6').fadeIn();
+
+    }, function() {
+        $(this).stop().animate({opacity:1},500)
+        $('.text6').fadeOut();
+    });
+    //the seventh
+      $(".text7").hide();
+      $(".image7").animate({
+        opacity: 1
+      });
+      $(".image7").hover(function(){
+        $(this).stop().animate({opacity:.4},200);
+        $('.text7').fadeIn();
+
+    }, function() {
+        $(this).stop().animate({opacity:1},500)
+        $('.text7').fadeOut();
+    });
+    //the eighth
+      $(".text8").hide();
+      $(".image8").animate({
+        opacity: 1
+      });
+      $(".image8").hover(function(){
+        $(this).stop().animate({opacity:.4},200);
+        $('.text8').fadeIn();
+
+    }, function() {
+        $(this).stop().animate({opacity:1},500)
+        $('.text8').fadeOut();
+    });
+
+
+      })
+
 
       $("#design").click(function(){
         $(".designdef").show();
@@ -192,6 +303,6 @@
 
         }
       });
-    });
+
   </script>
 </html>

@@ -94,6 +94,13 @@ input[type=text] {
   box-sizing: border-box;
   background-color: inherit;
 }
+input[type=email] {
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: inherit;
+}
 ::placeholder {
   color: #FFFF;
 }
@@ -120,36 +127,4 @@ social-media img{
 .bottom{
   text-align: center;
   font-size: 12px;
-}
-ul {
-  padding:0;
-  margin:0;
-}
-ul li {
-  float:left;
-  list-style:none;
-  margin:25px;
-  width:218px;
-  height:218px;
-  overflow:hidden;
-  border:1px solid #d2d2d2;
-  background:#ececec;
-}
-
-div.wrapper{
-  width:218px;
-  height:218px;
-  overflow:hidden;
-  position:relative;
-}
-
-div.caption {
-  font-family:arial;
-  font-weight:bold;
-  font-size:14px;
-  position:relative;
-  text-align:center;
-  padding:55px 15px 15px 15px;
-  min-height:125px;
-  line-height:16px;
 }
