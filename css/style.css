@@ -1,0 +1,154 @@
+@import url('bootstrap.css');
+@import url('fonts.css');
+.container{
+  position: relative;
+}
+header{
+  text-align: center;
+  background-image: url("../assets/backgrounds/h_img.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+
+}
+.firstlines{
+  margin-top: 80px;
+}
+#l0{
+  margin-top: 70px;
+
+}
+#l1{
+  font-size: 30px;
+  margin-top: 15px;
+}
+#l2{
+  font-size: 30px;
+  margin-top: 15px;
+}
+#l3{
+  font-size: 15px;
+}
+#l4{
+  margin-top: 85px;
+  margin-bottom: 15px;
+}
+/********THE ABOUT US SECTION********/
+ABOUT{
+  text-align: center;
+  font-size: 14px;
+  margin: 60px;
+}
+/******SERVICES SECTION**************/
+.services{
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  text-align: center;
+
+}
+services{
+  margin: 100px;
+  font-size: 14px;
+}
+/*****************WHAT WE DO*************/
+h4{
+  text-align: center;
+  margin: 20px;
+}
+.col{
+  text-align: center;
+}
+/***************PORTFOLIO******************/
+img.portfolio{
+  margin: 10px;
+}
+/*****THE HOVER EFFECTS ON THE PORTFOLIO********/
+.col-2{
+  display: inline-block;
+  position: relative;
+}
+.p1{
+  color: white;
+  display: none;
+  border: solid;
+  padding-bottom: 15px;
+  border-color: white;
+  margin: 10px;
+}
+/***********THE CONTACT FORM**********/
+.contact{
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  text-align: center;
+}
+.cont-head{
+  margin-top: 20px;
+  padding: 10px;
+}
+input[type=text] {
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: inherit;
+}
+input[type=email] {
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: inherit;
+}
+::placeholder {
+  color: #FFFF;
+}
+.message{
+  height: 150px;
+}
+input[type=submit]{
+  width:100%;
+  text-align: center;
+  background-color: lightblue;
+  float: right;
+
+}
+.social-media{
+
+  margin-top: 20px;
+  width: 75%;
+  margin: auto;
+}
+social-media img{
+  padding: 10px;
+}
+
+.bottom{
+  text-align: center;
+  font-size: 12px;
+}
+
+
+.text{
+  text-align: center;
+  border: solid;
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+}
+
+
+.text{
+   position: absolute;
+   margin: -150px 0px 0px 90px;
+   width:90px;
+   z-index:1;
+   text-align: center;
+}
+.port1:hover .text{
+  display: block;
+}
