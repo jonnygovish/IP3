@@ -6,6 +6,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     font-family: 'Dancing Script', cursive;
+    font-size: large;
 }
 
 .header-bg {
@@ -22,6 +23,16 @@ body {
     background-image: url("../assets/backgrounds/s_image.jpg");
     background-color: #cccccc;
     height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-bg {
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-color: #cccccc;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
