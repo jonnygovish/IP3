@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=MuseoModerno:wght@400&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'MuseoModerno', cursive;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+}
+
 .header-bg {
-    background-image: url("asset/backgrounds/h_img.jpg");
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
