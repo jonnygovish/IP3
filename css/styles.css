@@ -4,9 +4,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'MuseoModerno', cursive;
 }
 
-body {
+html, body {
     font-family: 'Dancing Script', cursive;
     font-size: large;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header-bg {
