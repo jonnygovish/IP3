@@ -27,3 +27,7 @@ body {
     background-size: cover;
     position: relative;
 }
+
+#portfolio img {
+    width: 100%;
+}
