@@ -23,6 +23,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/js/jquery.min.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/js/script.js">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>

@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
     <!--    header-->
     <div id="header" class="jumbotron text-center header-bg text-white">
         <div class="border border-success" style="height: 75vh;">
-            <div style="vertical-align: middle">
+            <div class="pt-5">
                 <img src="assets/logo/logo.png" alt="Delani Studio">
                 <h1>WELCOME<br>TO DELANI STUDIO</h1>
                 <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIROMENT</p>
@@ -50,15 +51,17 @@
         <div class="text-center pb-5 pt-5">
             <h3>WHAT WE DO</h3>
             <div class="row mt-5 mb-5">
-                <div class="col-sm-4">
-                    <img src="assets/services_icons/design_icon.png" alt="Design Icon">
-                    <p class="small">DESIGN</p>
+                <div class="icon col-sm-4">
+                    <div>
+                        <img src="assets/services_icons/design_icon.png" alt="Design Icon">
+                        <p class="small">DESIGN</p>
+                    </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="icon col-sm-4">
                     <img src="assets/services_icons/dev_icon.png" alt="Dev Icon">
                     <p class="small">DEVELOPMENT</p>
                 </div>
-                <div class="col-sm-4">
+                <div class="icon col-sm-4">
                     <img src="assets/services_icons/product_icon.png" alt="Product Icon">
                     <p class="small">PRODUCT MANAGEMENT</p>
                 </div>
@@ -69,40 +72,139 @@
     <!--Portfolio-->
     <div id="portfolio" class="container">
         <h3 class="text-center">PORTFOLIO</h3>
-        <div class="row mt-5 mb-5">
-            <div class="col-sm-3">
-                <img src="assets/portfolio/work1.jpg" alt="Dev Icon">
+        <div class="row mt-5 mb-5 overflow-hidden clearfix">
+            <div class="item col-sm-3 overflow-hidden">
+                <div class="image">
+                    <img src="assets/portfolio/work1.jpg" alt="Dev Icon">
+                </div>
+                <div class="text text-hide text-center">
+                    <h4>Jimmy Carry Project</h4>
+                    <p>Did this while in college.</p>
+                </div>
             </div>
-            <div class="col-sm-3">
-                <img src="assets/portfolio/work2.jpg" alt="Dev Icon">
+            <div class="item col-sm-3 overflow-hidden">
+                <div class="image">
+                    <img src="assets/portfolio/work2.jpg" alt="Dev Icon">
+                </div>
+                <div class="text text-hide text-center">
+                    <h4>Blank Project</h4>
+                    <p>I don't think I did this project.</p>
+                </div>
             </div>
-            <div class="col-sm-3">
-                <img src="assets/portfolio/work3.jpg" alt="Dev Icon">
+            <div class="item col-sm-3 overflow-hidden">
+                <div class="image">
+                    <img src="assets/portfolio/work3.jpg" alt="Dev Icon">
+                </div>
+                <div class="text text-hide text-center">
+                    <h4>Mighty Ontario</h4>
+                    <p>For legal recreational cannabis!</p>
+                </div>
             </div>
-            <div class="col-sm-3">
-                <img src="assets/portfolio/work4.jpg" alt="Dev Icon">
+            <div class="item col-sm-3 overflow-hidden">
+                <div class="image">
+                    <img src="assets/portfolio/work4.jpg" alt="Dev Icon">
+                </div>
+                <div class="text text-hide text-center">
+                    <h4>Jungle Green</h4>
+                    <p>Smart and Elegant. Go for it!</p>
+                </div>
             </div>
         </div>
-        <div class="row mt-5 mb-5">
-            <div class="col-sm-3">
-                <img src="assets/portfolio/work5.jpg" alt="Dev Icon">
+        <div class="row mt-5 mb-5 overflow-hidden">
+            <div class="item col-sm-3">
+                <div class="image">
+                    <img src="assets/portfolio/work5.jpg" alt="Dev Icon">
+                </div>
+                <div class="text text-hide text-center">
+                    <h4>Good Day</h4>
+                    <p>What a gift. I wish it every day.</p>
+                </div>
             </div>
-            <div class="col-sm-3">
-                <img src="assets/portfolio/work6.jpg" alt="Dev Icon">
+            <div class="item col-sm-3">
+                <div class="image">
+                    <img src="assets/portfolio/work6.jpg" alt="Dev Icon">
+                </div>
+                <div class="text text-hide text-center">
+                    <h4>Forms Tags Design</h4>
+                    <p>Where forms ring bells!</p>
+                </div>
             </div>
-            <div class="col-sm-3">
-                <img src="assets/portfolio/work7.jpg" alt="Dev Icon">
+            <div class="item col-sm-3">
+                <div class="image">
+                    <img src="assets/portfolio/work7.jpg" alt="Dev Icon">
+                </div>
+                <div class="text text-hide text-center">
+                    <h4>Burned</h4>
+                    <p>A logo company. They make great Logos.</p>
+                </div>
             </div>
-            <div class="col-sm-3">
-                <img src="assets/portfolio/work8.jpg" alt="Dev Icon">
+            <div class="item col-sm-3">
+                <div class="image">
+                    <img src="assets/portfolio/work8.jpg" alt="Dev Icon">
+                </div>
+                <div class="text text-hide text-center">
+                    <h4>Giraffe Restaurant</h4>
+                    <p>I Only remember their great cappuccino.</p>
+                </div>
             </div>
         </div>
     </div>
 
     <!--Contact-->
-    <div id="contact" class="container-fluid contact-bg">
-        <div class="text-center text-white pt-5 pb-5">
+    <div id="contact" class="wrap contact-bg">
+        <div class="container text-center text-white pt-5 pb-5">
             <h3>CONTACT US</h3>
+            <!-- Begin Mailchimp Signup Form -->
+            <div id="mc_embed_signup">
+                <form action="https://xyz.us10.list-manage.com/subscribe/post?u=eb8d814c88fd474a7e17129fa&amp;id=4b5fe25905" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+
+                        <!--div class="indicates-required"><span class="asterisk">*</span> indicates required</div-->
+                        <div class="">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="mc-field-group form-group">
+                                        <!--label for="mce-MMERGE6">Name </label-->
+                                        <input class="bg-transparent text-white" type="text" value="" name="MMERGE6" class="" id="mce-MMERGE6" placeholder="Name...">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="mc-field-group form-group">
+                                        <!--label for="mce-EMAIL">
+                                            Email Address
+                                            <span class="asterisk">*</span>
+                                        </label-->
+                                        <input class="bg-transparent" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="mc-field-group form-group">
+                                        <!--label for="mce-MMERGE7">Message </label-->
+                                        <!--input type="text" value="" name="MMERGE7" class="" id="mce-MMERGE7"-->
+                                        <textarea class="bg-transparent" value="" name="MMERGE7" class="" id="mce-MMERGE7" placeholder="Your message here..." cols="50" rows="8"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                            <input type="text" name="b_eb8d814c88fd474a7e17129fa_4b5fe25905" tabindex="-1" value="">
+                        </div>
+                        <div class="clear">
+                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!--End mc_embed_signup-->
         </div>
     </div>
 

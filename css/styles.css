@@ -44,4 +44,25 @@ html, body {
 
 #portfolio img {
     width: 100%;
+    height: auto;
+}
+
+#portfolio .image {
+    z-index: -100;
+}
+
+.wrap {
+    width: 100%;
+}
+
+.row{
+     overflow: hidden;
+ }
+
+.text-hide {
+    display: none;
+}
+
+float-left {
+    float: left;
 }
