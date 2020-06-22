@@ -48,7 +48,13 @@ html, body {
 }
 
 #portfolio .image {
-    z-index: -100;
+    float: left;
+}
+
+#portfolio .text {
+    z-index: 2;
+    float: left;
+    text-align: center;
 }
 
 .wrap {
@@ -58,11 +64,3 @@ html, body {
 .row{
      overflow: hidden;
  }
-
-.text-hide {
-    display: none;
-}
-
-float-left {
-    float: left;
-}
