@@ -1,4 +1,4 @@
-# My Second IP - Daniel Kinyanjui
+# My Third IP - Daniel Kinyanjui
 
 ## Description
 This is a demo of how you can build a simple web page using **JQUERY**, **HTML** and **CSS**(Bootstrap) as well as how version your code using **GIT**.
