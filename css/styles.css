@@ -51,7 +51,7 @@ html, body {
     float: left;
 }
 
-#portfolio .text {
+#portfolio .text{
     z-index: 2;
     float: left;
     text-align: center;
@@ -63,4 +63,58 @@ html, body {
 
 .row{
      overflow: hidden;
- }
+}
+
+.flip {
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform-origin: 50% 50% 0px;
+    -moz-transform-origin: 50% 50% 0px;
+    -ms-transform-origin: 50% 50% 0px;
+    -o-transform-origin: 50% 50% 0px;
+    -webkit-transform-origin: 50% 50% 0px;
+}
+
+#what-we-do .back,
+#what-we-do .front {
+    position: absolute;
+    transition: all 3s;
+    -moz-transition: all 3s;
+    -o-transition: all 3s;
+    -webkit-transition: all 3s;
+}
+
+#what-we-do .back {
+    text-align: center;
+    transform: rotateY(0deg);
+    -moz-transform: rotateY( 0deg );
+    -ms-transform: rotateY( 0deg );
+    -o-transform: rotateY( 0deg );
+    -webkit-transform: rotateY( 0deg );
+}
+
+#what-we-do .front {
+    text-align: center;
+    transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    -webkit-transform: rotateY( 180deg );
+}
+
+/*.flip-front {*/
+/*    transform: rotateY(0deg) !important;*/
+/*    -moz-transform: rotateY( 0deg ) !important;*/
+/*    -ms-transform: rotateY( 0deg ) !important;*/
+/*    -o-transform: rotateY( 0deg ) !important;*/
+/*    -webkit-transform: rotateY( 0deg ) !important;*/
+/*}*/
+
+/*.flip-back {*/
+/*    transform: rotateY(180deg) !important;*/
+/*    -moz-transform: rotateY( 180deg ) !important;*/
+/*    -ms-transform: rotateY( 180deg ) !important;*/
+/*    -o-transform: rotateY( 180deg ) !important;*/
+/*    -webkit-transform: rotateY( 180deg ) !important;*/
+/*}*/
