@@ -2,19 +2,16 @@ $(document).ready(function(){
     //What We Do
     $(".icon").each(function () {
         console.log("In Icon");
-        $(this).find("div.image").click(function () {
+        $(this).click(function () {
             console.log("Clicked Image DIV");
-            $(this).find("div.front").addClass("flip");
-            $(this).find("div.back").removeClass("flip");
-            console.log("Text now visible")
-            $(this).find("div.back").addClass("back");
+            $(this).find("div.w-image").addClass("front");
+            $(this).find("div.w-text").removeClass("back");
+            $(this).find("div.w-text").addClass("back-flip");
         });
-        $(this).find("div.back").click(function () {
-            console.log("Clicked Text DIV");
-            //$(this).find("div.back").addClass("text-hide");
-            $(this).find("div.back").addClass("flip");
-            $(this).find("div.front").addClass("flip-back");
-        });
+        $(this).mouseleave(function () {
+            $(this).find("div.w-image").removeClass("front");
+            $(this).find("div.w-text").addClass("back");
+        })
     });
 
     //Portfolio Text Animate
