@@ -1,17 +1,25 @@
-# IP3
+# My Third IP - Daniel Kinyanjui
+
 ## Description
+This is a demo of how you can build a simple web page using **JQUERY**, **HTML** and **CSS**(Bootstrap) as well as how version your code using **GIT**.
 
-**Design**
+## Setup Requirements
+* Clone or Fork the project from github on this link: https://github.com/danjoki/IP3.git
+* Open index.html using any browser to start.
+* Or view the site [here](https://danjoki.github.io/IP3/).
 
-Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
+## Known Bugs
+No bugs reported so far. However, you can raise any issues from appropriate channel on [github issues](https://github.com/danjoki/IP3/issues) or use contacts below.
 
-**Development**
+## Implementation Technologies
+* JQUERY
+* HTML
+* CSS (BOOTSTRAP)
+* GIT
+* MARKDOWN
 
-All engineers are fluent in the latest enterprise, mobile and web development technologies.
-They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
+## Support Details
+Click [here](http://kinyanjui.xyz) for documentation and support contacts.
 
-**Product Management**
-
-Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
-This iterative process allows for changes as business requirements evolve.
+### License
+_Copyright (c) 2020 **Daniel Kinyanjui** MIT License_
