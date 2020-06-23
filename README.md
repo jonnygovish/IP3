@@ -4,7 +4,7 @@
 This is a demo of how you can build a simple web page using **JQUERY**, **HTML** and **CSS**(Bootstrap) as well as how version your code using **GIT**.
 
 ## Setup Requirements
-* Clone or Fork the project from github on this link: https://github.com/danjoki/ip_two.git
+* Clone or Fork the project from github on this link: https://github.com/danjoki/IP3.git
 * Open index.html using any browser to start.
 * Or view the site [here](https://danjoki.github.io/IP3/).
 
