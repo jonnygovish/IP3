@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=MuseoModerno:wght@400&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'MuseoModerno', cursive;
+}
+
+html, body {
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-bg {
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.service-bg {
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-bg {
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#portfolio img {
+    width: 100%;
+    height: auto;
+}
+
+#portfolio .image {
+    float: left;
+}
+
+#portfolio .text{
+    z-index: 2;
+    float: left;
+    text-align: center;
+}
+
+.wrap {
+    width: 100%;
+}
+
+.row{
+     overflow: hidden;
+}
+
+.back {
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+}
+
+.front {
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+}
+
+.back, .front {
+    position: absolute;
+    transition: all 3s;
+    -moz-transition: all 3s;
+    -o-transition: all 3s;
+    -webkit-transition: all 3s;
+}
+
+.back-flip {
+    /*text-align: center;*/
+    transform: rotateY(0deg);
+    -moz-transform: rotateY( 0deg );
+    -ms-transform: rotateY( 0deg );
+    -o-transform: rotateY( 0deg );
+    -webkit-transform: rotateY( 0deg );
+}
+
+.front-flip {
+    /*text-align: center;*/
+    transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    -webkit-transform: rotateY( 180deg );
+}
+
+
