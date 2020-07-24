@@ -17,6 +17,7 @@ h1{
 .services{
     background-image: url(/assets/backgrounds/s_image.jpg);
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     height: 50vh;
     display: flex;
     flex-wrap: wrap;
@@ -25,4 +26,18 @@ h1{
 }
 h3{
     color: white;
+}
+.contact{
+    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+h6{
+    color: white;
+    font-size: x-large;
 }
