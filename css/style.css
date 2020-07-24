@@ -1,0 +1,13 @@
+.welcome{
+    background-image: url(/assets/backgrounds/h_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
