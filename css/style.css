@@ -27,6 +27,14 @@ h1{
 h3{
     color: white;
 }
+h4{
+    text-align: center;
+}
+#images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .contact{
     background-image: url(/assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
@@ -40,4 +48,11 @@ h3{
 h6{
     color: white;
     font-size: x-large;
+}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40vh;
+    width: min-content;
+    padding: 3cm;
 }
