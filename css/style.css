@@ -14,6 +14,9 @@ h1{
     color: white;
     text-align: center;
 }
+.about{
+    text-align: center;
+}
 .services{
     background-image: url(../assets/backgrounds/s_image.jpg);
     background-repeat: no-repeat;
@@ -26,6 +29,7 @@ h1{
 }
 h3{
     color: white;
+    text-align: center;
 }
 h4{
     text-align: center;
@@ -45,14 +49,23 @@ h4{
     align-items: center;
     justify-content: center;
 }
-h6{
-    color: white;
-    font-size: x-large;
+h5{
+    text-align: center;
 }
 .portfolio{
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
     height: 40vh;
     width: min-content;
-    padding: 3cm;
+}
+h6{
+    color: white;
+    font-size: x-large;
+}
+.social-media{
+    text-align: center;
+}
+footer{
+    text-align: center;
 }
