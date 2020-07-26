@@ -1,1 +1,5 @@
-# IP3
+# DELANII STUDIO
+## Description
+
+## Author
+Ian Wilbert
