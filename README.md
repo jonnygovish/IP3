@@ -19,3 +19,5 @@ Cel: +254700643549
 Email: ianwilbuts@gmail.com
 
 Instagram: @_a.n.k.o
+## License
+MIT Lisence
