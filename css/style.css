@@ -80,14 +80,20 @@ h6{
 #name{
     background-color: transparent;
     color: white;
+    border-color: white;
+    width: 30%;
 }
 #email{
     background-color: transparent;
     color: white;
+    border-color: white;
+    width: 30%;
 }
 #message{
     background-color: transparent;
     color: white;
+    border-color: white;
+    width: 50%;
 }
 #submit{
     background-color: transparent;
