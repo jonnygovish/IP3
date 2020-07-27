@@ -37,9 +37,9 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    height: 50vh;
+    height: 70%;
     color: white;
-    padding-top: 2cm;
+    padding: 2cm;
 }
 h3{
     color: white;
@@ -72,7 +72,7 @@ h6{
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70%;
+    height: 80%;
     text-align: center;
     color: white;
     padding: 1cm;
