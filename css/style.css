@@ -39,7 +39,7 @@ h1{
     text-align: center;
     height: 50vh;
     color: white;
-    padding-top: 3cm;
+    padding-top: 2cm;
 }
 h3{
     color: white;
@@ -63,11 +63,14 @@ h5{
 .portfolio{
     text-align: center;
 }
+h6{
+    font-weight: bold;
+}
 .contact{
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 70%;
     text-align: center;
     color: white;
     padding: 1cm;
@@ -81,6 +84,10 @@ h5{
     color: white;
 }
 #message{
+    background-color: transparent;
+    color: white;
+}
+#submit{
     background-color: transparent;
     color: white;
 }
