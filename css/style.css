@@ -1,6 +1,6 @@
 .flex-container {
   display: flex;
-  background-color: DodgerBlue;
+  background-color: white;
   flex-wrap: wrap;
   justify-content: center;
 }
