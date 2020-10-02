@@ -1,0 +1,13 @@
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-container > div {
+  margin: 3px;
+  padding: 2px;
+}
+img{
+    width: 150px;
+}
