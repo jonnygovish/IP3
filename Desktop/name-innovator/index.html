@@ -1,48 +1,75 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link href="style.css" rel="stylesheet" type="text/css">
-        <title>Name Innovator</title>
-    </head>
-    <body>
+<html lang="en" dir="ltr">
+        <head>
+          <meta charset="utf-8">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+          <link rel="stylesheet" href="style.css">
+          <title>Akan Birthday Names</title>
+        </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="jumbotron parent">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="jumbotron p-0 left">
+                <div class="overlay">
+                  <h1 class="text-center akan">Akan Names</h1>
+                  <hr class="my-4">
+                  <img src="Flag_of_Ghana.svg" alt="picture" height="200">
+                  <p class="p-text">People in African have interesting traditions in all aspects and to date ,some of them continue on practising and observing those traditions.One traditon that has not been taken over by the western culture is the naming process and some communities in Ghana continue to uphold the practice to date.</p>
+                  <p>Akan people of Ghana name their children after the day of the week they were born.</p>
+                    <p class="p-text">These "day names" have further meanings concerning the soul and character of the person.</p>
+                    <p class="q-text text-center">Want to find out what your akan name is?
+                      <br>COMPLETE THE FOLLOWING TEST AND FIND OUT<br>
+                    </p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 right">
+            <div class="panel col-sm-6 offset-sm-3">
 
 
-        <div class="container">
-            <h1>Akan names</h1>
-            <img src="image/akan.jpeg" alt="A photo of a Ghanaian flag">
-              <p>This tradition is derived from the <em>Ghanian culture</em>.</p>
-              <p>The Ghanaian tradition enables us to know the day we were born according to their gender and the day they were born.</p>
-              <p>In order for one to know their akan name one has to know the day they were born but most people have no idea.</p>
-
-              <script src="scripts.js"></script>
+                    <div class="form-group top-form">
+                      <label for="century" class="labels">Century</label>
+                      <input type="number" class="form-control" placeholder="Enter century" id="century" required  min="19" max="30">
+                    </div>
 
 
-
-              <FORM NAME="myform" ACTION="" METHOD="GET">
-                Enter the year : <BR>
-                <INPUT TYPE="year" NAME="inputbox" VALUE=""><P>
-                <INPUT TYPE="button" NAME="button" >
-                </FORM>
+                    <div class="form-group">
+                      <label for="year" class="labels">Year</label>
+                      <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="1950" max="1000">
+                    </div>
 
 
-                <FORM NAME="myform" ACTION="" METHOD="GET">
-                    Enter the month: <BR>
-                    <INPUT TYPE="" NAME="inputbox" VALUE=""><p>
-                    <INPUT TYPE="button" NAME="button">
-                    </FORM>
+                    <div class="form-group">
+                      <label for="month" class="labels">Month</label>
+                      <input type="number" class="form-control" placeholder="Enter month" id="month" required min="0" max="12">
+                    </div>
 
 
-                    <FORM NAME="myform" ACTION="" METHOD="GET">
-                        Enter the date: <BR>
-                        <INPUT TYPE="" NAME="inputbox" VALUE=""><p>
-                        <INPUT TYPE="button" NAME="button" Value="Click">
-                        </FORM>
+                    <div class="form-group">
+                      <label for="monthDay" class="labels">Date of the month</label>
+                      <input type="number" placeholder="Enter the date " class="form-control" id="monthdate" required min="1" max="31">
+                    </div>
 
 
-                        <FORM NAME="myform" ACTION="" METHOD="GET">
-                            Enter the gender: <BR>
-                            <INPUT TYPE="gender" NAME="inputbox" VALUE=""><P>>
-                            <INPUT TYPE="button" NAME="button" >
-                            </FORM>
- </body>
+                    <form class="radio-button">
+                      <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+                      <br>
+                      <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+                    </form>
+                    <br>
+                    <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Calculate Birthday</button></a>
+                    <h1 id="result"></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+       <script src="script.js"></script>
+
+  </body>
 </html>
