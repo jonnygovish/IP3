@@ -1,12 +1,13 @@
 # {Name-innovator}
 {It helps people find information about the day they were born.},
-{04/10/2020}
-### By {Glory Kiogora}
-##Description
+{04/10/2020
+By {Glory Kiogora}
+
+###Description
 {This a website that enables the user to know more about the day they were born and in particular;it gives information about the particular day one was born.}
+To use this website use the following information https://github.com/glo18/name-innovator.git
 
-
-##Setup/Installation Requirements
+###Setup/Installation Requirements
 Any web browser e.g Mozilla Firefox or Google Chrome.
 
 Known Bugs {No issues detected}
