@@ -137,15 +137,31 @@
     <script>
         $(document).ready(function () {
             $("#des").click(function () {
-                $("#myp").toggle();
+                $("#myp").toggle();  
+                $("#myp").hover(function(){
+  $(this).css("background-color", "yellow");
+  }, function(){
+  $(this).css("background-color", "pink");
+});
              
             });
             $("#dev").click(function(){
                 $("#pdevelop").toggle();
+                $("#pdevelop").hover(function(){
+  $(this).css("background-color", "yellow");
+  }, function(){
+  $(this).css("background-color", "pink");
+});
+    
 
             });
             $("#prod").click(function(){
                 $("#prop").toggle();
+                $("#prop").hover(function(){
+  $(this).css("background-color", "yellow");
+  }, function(){
+  $(this).css("background-color", "pink");
+});
 
             });
 
