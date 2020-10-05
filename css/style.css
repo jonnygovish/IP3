@@ -23,7 +23,7 @@ img{
   color: #fff;
 }
 .header{
-  background-image: url("/images/image1.jpg");
+  background-image: url("../images/image1.jpg");
 }
 .flex{
   display: inline-flex;
@@ -35,10 +35,9 @@ img{
 
 
 .services{
-  background-image: url("/images/image3.jpg");
+  background-image: url("../images/image3.jpg");
   height: 400px;
   text-align: center;
-  
 }
 .centerS{
   color:azure;
@@ -46,7 +45,6 @@ img{
 .servp{
   color: #fff;
   padding-inline: 50%;
-  
   
 }
 .centrep{
@@ -75,8 +73,8 @@ img{
   margin-left:300px;
 }
 .contact{
-  background-image: url("/images/image2.jpg");
-  height: 400px;
+  background-image: url("../images/image2.jpg");
+  height: 400px;         
   text-align: center;
   
 }.contactS{
@@ -142,6 +140,6 @@ input[type="text"]{
   margin-left:170px;
 }
 .email{
-  
+  margin-left: 170px;
 }
 
