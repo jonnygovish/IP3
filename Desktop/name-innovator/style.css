@@ -1,0 +1,22 @@
+
+
+
+.class container
+h1{
+    color: #000;
+    text-align: center;
+    font-size: 5px;
+    font-style: inherit;
+    font-family: sans-serif;
+    line-height: 40px;
+
+}
+p{
+    color: #000;
+    text-align: left;
+    font-size: 20px;
+    font-family: inherit;
+    font-display: inherit;
+}
+    
+
