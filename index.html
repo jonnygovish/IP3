@@ -30,14 +30,20 @@
         WHAT WE DO
     </h1>
     <div class="flex">
-    <div><img class="design"  src="/images/services_icons/design_icon.png" alt="">
-    <p class="designp" >DESIGN</p>
+    <div id="des"><img class="design"  src="/images/services_icons/design_icon.png" alt="">
+    <p id="desp"class="designp" >DESIGN</p>
+    <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+        Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
     </div>
-     <div><img class="development" src="/images/services_icons/dev_icon.png" alt="">
+     <div id="dev"><img class="development" src="/images/services_icons/dev_icon.png" alt="">
         <p class="developmentp">DEVELOPOMNT</p>
+        <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
+            They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
     </div>
-     <div><img class="product"src="/images/services_icons/product_icon.png" alt="">
+     <div id="prod"><img class="product"src="/images/services_icons/product_icon.png" alt="">
         <p style="margin-left:350px;">PRODUCT</p>
+        <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+            This iterative process allows for changes as business requirements evolve.</p>
     </div>
    </div>
    <div class="services"> 
@@ -115,6 +121,13 @@
     <p class="year">2019</p>
     </div>
 </div>
+<script>
+    $(document).ready(function(){
+      $("des").click(function(){
+        $("desp").toggle();
+      });
+    });
+    </script>
 
    <script src="js/index.js"></script>
 
