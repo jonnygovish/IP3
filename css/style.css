@@ -1,0 +1,145 @@
+.flex-container {
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-container > div {
+  margin: 3px;
+  padding: 2px;
+}
+img{
+    width: 150px;
+}
+.logo{
+  margin-left: auto; margin-right: auto; display: block;
+}
+.centre{
+  text-align: center;
+/*color: aliceblue;*/
+}
+.center{
+  text-align: center;
+  color: #fff;
+}
+.header{
+  background-image: url("../images/image1.jpg");
+}
+.flex{
+  display: inline-flex;
+  justify-content: center;
+}
+.centre{
+  color: black;
+}
+
+
+.services{
+  background-image: url("../images/image3.jpg");
+  height: 400px;
+  text-align: center;
+}
+.centerS{
+  color:azure;
+}
+.servp{
+  color: #fff;
+  padding-inline: 50%;
+  
+}
+.centrep{
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: black
+}
+.design{
+
+  padding-left:100px;
+}
+
+.designp{
+  padding-left:140px;
+  
+}
+.development{
+  margin-left:300px;
+}
+.developmentp{
+  margin-left:310px;
+}
+.product{
+  margin-left:300px;
+}
+.contact{
+  background-image: url("../images/image2.jpg");
+  height: 400px;         
+  text-align: center;
+  
+}.contactS{
+  color:azure;
+}
+.footer{
+  text-align: center;
+}
+
+
+.container{
+  display: flex;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-top: 2px;
+}
+.social{
+  width:60px;
+  float: left;
+   padding: 15px;
+ 
+
+}
+
+.footer-icons{
+  margin-left: 300px;
+}
+.footerp{
+  margin-left: 50%;
+ 
+}
+.year{
+  margin-left: 5%;
+  
+}
+.textarea{
+  height: 200px;
+  width: 70%;
+  background:transparent;
+  border-color: #fff;
+  color: #fff;
+  margin-top: 10px;
+  
+}
+input[type="text"]{
+  border-color: #fff;
+  background: transparent;
+    display: block;
+    float: left;    
+    width: 350px;    
+    height: 20px;
+      text-emphasis-color: #fff;
+            padding: 10px 15px;
+            margin: 5px ;
+            
+           
+      
+}
+::placeholder{
+  color: #fff;
+}
+.name{
+  margin-left:170px;
+}
+.email{
+  margin-left: 170px;
+}
+
