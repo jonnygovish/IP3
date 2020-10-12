@@ -1,0 +1,49 @@
+.container{
+    padding: 200px;
+    background:url(images/assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+  }
+  .about{
+    text-align: center;
+  }
+  .services{
+    padding: 1px;
+    background:url(images/assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+  }
+  .what_we_do{
+
+    text-align: center;
+  }
+  .col-md-4{
+    flex: auto;
+    text-align: center;
+  
+  }
+ 
+  .row{
+
+    display: none;
+  
+  }
+  .title-up{
+    text-align: center;
+   }
+   
+   .row {
+     flex: auto;
+     display: flex;
+     flex-direction: row;
+   }
+   .portfolio {
+    width: 22%;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: block;
+   }
+  
