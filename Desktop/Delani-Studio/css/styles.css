@@ -43,7 +43,7 @@
     width: 22%;
     padding: 10px;
     flex-wrap: wrap;
-    justify-content: space-around;
-    display: block;
+    justify-content: space-evenly;
+    display: flex;
    }
   

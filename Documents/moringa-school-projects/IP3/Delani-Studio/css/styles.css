@@ -19,31 +19,14 @@
 
     text-align: center;
   }
-  .col-md-4{
+  #click1{
     flex: auto;
     text-align: center;
   
   }
- 
   .row{
 
-    display: none;
+    display: flex;
   
   }
-  .title-up{
-    text-align: center;
-   }
-   
-   .row {
-     flex: auto;
-     display: flex;
-     flex-direction: row;
-   }
-   .portfolio {
-    width: 22%;
-    padding: 10px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    display: block;
-   }
   
