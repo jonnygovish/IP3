@@ -1,0 +1,108 @@
+.welcome{
+    background-image: url(../assets/backgrounds/h_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 700px;
+    padding: 200px;
+    color: white;
+}
+h1{
+    padding-top: 50px;
+}
+#mouseClick {
+    animation: bounce 2s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-55px);
+    }
+    60% {
+      transform: translateY(-45px);
+    }
+  }
+.welcome>img:last-child{
+    padding-top: 140px;
+}
+.about{
+    text-align: center;
+    padding: 1cm;
+}
+.services{
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 70%;
+    color: white;
+    padding: 2cm;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    font-weight: bold;
+}
+.design{
+    display: none;
+}
+.development{
+    display: none;
+}
+.product{
+    display: none;
+}
+h5{
+    text-align: center;
+    font-weight: bold;
+}
+.portfolio{
+    text-align: center;
+}
+h6{
+    font-weight: bold;
+}
+.contact{
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    text-align: center;
+    color: white;
+    padding: 1cm;
+}
+#name{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    width: 30%;
+}
+#email{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    width: 30%;
+}
+#message{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    width: 50%;
+}
+#submit{
+    background-color: transparent;
+    color: white;
+}
+.social-media{
+    text-align: center;
+    padding: 1cm;
+}
+footer{
+    text-align: center;
+}
