@@ -151,37 +151,34 @@
 }
 
 .project-heading{
-    font-size: 80px;
-    background: #252525;
-    text-transform: capitalize;
+    font-size: 40px;
+    text-transform: uppercase;
     text-align: center;
     margin-bottom: 50px;
-    color: #f1eeee;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-stroke: 8px transparent;
+    color: #050505;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .project-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 100px;
 }
 
 .project-card{
-    height: 400px;
-    position: relative;
+    height: 600px;
+    position:relative;
 }
 
 .project-img{
-    width:80%;
-    height: 80%;
+    width:50%;
+    height: 30%;
     position:absolute;
     top: 0;
     left: 0;
-    object-fit: cover;
+    object-fit:cover;
     transition: .5s;
-    border-radius:20px;
+    border-radius:0px;
 
 }
 
@@ -196,9 +193,10 @@
 
 .project-title{
     font-size: 50px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
     font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .project-info{
