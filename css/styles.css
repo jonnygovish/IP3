@@ -65,7 +65,7 @@
     }
      
     .home-bg-image {
-    background-image: url('assets/backgrounds/c_image.jpg');
+    
     background-color: #cccccc;
     height: 700px;
     background-position: center;
@@ -215,42 +215,38 @@
 
 
 
-/* Contact-section */
-
+/* Contact Us-section */     
 .contact-section{
-    width: 100%;
-    min-height: 100vh;
-    padding: 150px 100px 0;
-    position:fixed;
-    top: 0;
-    opacity: 0;
-    transition: 1s;
-}
-
-.contact{
     width: 100%;
     display: grid;
     grid-template-columns: 30% 65%;
     grid-gap: 40px;
+    
 }
-
-.contact-img-container{
-    position: relative;
+.contact{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .contact-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
+
+    background-color: #696363;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     
 }
 
 .contact-info{
-    color: rgb(243, 240, 240);
-    opacity: 1;
-    font-size: 20px;
-    line-height: 40px;
-    position:relative;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
 }
 
 
