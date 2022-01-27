@@ -212,30 +212,7 @@
     grid-gap: 20px;
 }
 
-.project-btn{
-    height: 40px;
-    text-transform: capitalize;
-    font-size: 18px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-}
 
-.project-btn.live{
-    background: none;
-    border: 2px solid #fff;
-}
-
-.project-card:hover .project-img{
-    filter: blur(10px);
-}
-
-.project-card:hover .project-content{
-    opacity: 1;
-    float:right;
-
-}
 
 
 /* Contact-section */
