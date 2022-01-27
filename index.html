@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--My CSS Style sheet-->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <!--My Script File-->
-    <script src="app.js"></script>
+    <!--<script src="app.js"></script>-->
 <style>.home-bg-image {
     background-image: url('assets/backgrounds/h_img.jpg'); 
 }
@@ -18,6 +19,13 @@
     background-image: url('assets/backgrounds/s_image.jpg');
 }  
     </style>
+    <script>
+        $(document).ready(function(){
+          $("w3-padding-16").click(function(){
+            $(this).hide();
+          });
+        });
+        </script>
 </head>
 <body>
     <!-- home section -->
@@ -73,7 +81,7 @@
    <!-- Grid for What we do -->
    <div class="w3-row-padding" style="margin:0 -16px">
      <div class="w3-third w3-margin-bottom">
-       <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off ">
+       <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off mouse_click">
          <li><img src="assets/services_icons/design_icon.png" alt="design"> DESIGN</li>
          <li class="w3-padding-16">Web Design</li>
          <li class="w3-padding-16">Photography</li>
